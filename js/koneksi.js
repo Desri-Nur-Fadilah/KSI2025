@@ -1,4 +1,5 @@
 // Script koneksi database
+<<<<<<< HEAD
 // js/koneksi.js
 // Fitur: KoneksiDatabase
 // Digunakan agar program bisa terhubung dengan database MySQL
@@ -24,3 +25,5 @@ koneksi.connect((err) => {
 
 // Ekspor koneksi agar bisa digunakan di file lain
 module.exports = koneksi;
+=======
+>>>>>>> f586d37710f6f6c1cc07c6fcc775f1c8e7364391
