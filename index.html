@@ -9,5 +9,20 @@
 <body>
     <h1>Hello world!</h1>
     <p>Ini contoh file HTML untuk KSI 2025.</p>
+
+    <!-- KODE BARU -->
+    <div id="waktu">
+        Waktu sekarang: <span id="jam"></span>
+    </div>
+
+    <!-- KODE BARU -->
+    <script>
+        function tampilkanWaktu() {
+            const sekarang = new Date();
+            document.getElementById("jam").innerHTML = sekarang.toLocaleString();
+        }
+        setInterval(tampilkanWaktu, 1000);
+    </script>
+
 </body>
 </html>
